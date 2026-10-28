@@ -1,0 +1,42 @@
+[Figure evidence — comparative mode]
+Known figure manipulations: Legend Swap, Category Swap, Graph Flip, Graph Swap.
+
+VERBATIM READING (mandatory for evidence_id_2):
+In Step 3, before any comparison to the claim or to evidence_id_1, list EVERY
+legend entry and axis/category label in evidence_id_2 verbatim:
+  '[colour / shape / line-style] → [exact label text]'
+This prevents anchoring on evidence_id_1's labels when reading evidence_id_2.
+
+For EACH of the two images, check these elements and compare across images:
+  (A) LEGEND: Read every legend entry and trace each VISUAL marker (colour,
+      line style, marker shape) to its associated label independently.  Compare
+      legend text between the two images — do NOT assume identical positions
+      mean identical labels.
+  (B) AXES: Check axis labels, direction (ascending vs descending), and scale.
+      Compare between the two images for any flip or reversal.
+  (C) CATEGORY LABELS: Read every x-axis tick, bar label, or panel sub-label.
+      Compare category order between the two images — the same bar position
+      may carry a different label in each image.
+  (D) DATA POINTS: For each quantity in the claim, read the exact value from
+      both images.  Which image shows values consistent with the claim?
+  (E) PANEL ARRANGEMENT: If multi-panel, compare which dataset / content each
+      panel displays in both images.  Look for sub-graph position swaps.
+
+AMBIGUOUS CASE — when both images satisfy the claim:
+If the claim describes only behavioural outcomes (e.g. 'X outperforms Y') and
+BOTH images appear to satisfy it (because the named entity achieves the stated
+outcome in both, just with different visual markers), resolve as follows:
+  1. List ALL label assignments in both images, not just the ones in the claim.
+  2. Find the ONE label assignment that differs between the images.
+  3. Ask: which assignment is internally consistent with ALL other labels AND
+     with the caption's description of the figure?
+  4. The image with the more globally consistent assignment is authentic.
+  5. Output your best judgment ONCE and do not repeat the analysis.
+
+IMPORTANT: Do NOT hallucinate data points, trends, or panels not explicitly
+present.  If the images appear identical at first glance, the manipulation is
+a subtle Legend Swap or Category Swap — carefully read every word in the
+legend and axis labels before concluding they are the same.
+
+The image where ALL elements are internally consistent with the claim and
+caption simultaneously is the authentic one.

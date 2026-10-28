@@ -1,0 +1,13 @@
+Your independent reasoning attempts DISAGREED on which image is authentic. Below are the two competing analyses — one concluded evidence_id_1, the other evidence_id_2. Decide which verdict is BETTER GROUNDED in the evidence; do NOT re-derive from scratch.
+
+{contrast}
+Adjudicate using this checklist, judging the two analyses against it:
+1. NO POSITION BIAS: evidence_id_2 is authentic in exactly 50% of cases. Do NOT prefer the evidence_id_1 analysis merely because it is first.
+2. ENTITY: Which analysis traces each VISUAL marker to its label INDEPENDENTLY in each image and reads the claimed entity from the correct series/row/column? An apparent match built on a mis-read label is wrong.
+3. VALUES: Which analysis's stated values actually satisfy EVERY assertion in the claim? Prefer the analysis whose specifics are correct.
+4. REVERSE CHECK: The correct verdict can name the specific manipulated element in the rejected image. Prefer the analysis that does so concretely over one resting on suspicion.
+5. BALANCE: Choose the better-evidenced analysis, giving both images equal scrutiny.
+
+Output exactly one line: ### Final Label: evidence_id_1
+  — or —
+### Final Label: evidence_id_2

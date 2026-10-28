@@ -1,0 +1,37 @@
+[Figure evidence — comparative mode]
+Known figure manipulations: Legend Swap, Category Swap, Graph Flip, Graph Swap.
+
+REMEMBER: The two figures are NEVER identical. One is always manipulated.
+The manipulation may be very subtle (e.g., two legend entries swapped,
+one axis flipped, panels rearranged). You MUST find the difference.
+
+SYSTEMATIC COMPARISON CHECKLIST — go through ALL of these:
+
+  (A) LEGEND VERIFICATION (most common manipulation for figures):
+      For EACH legend entry in BOTH images:
+        1. Note the color/style of the visual element (line, bar, marker).
+        2. Note the text label assigned to it.
+        3. Trace that visual element to its data values.
+        4. Compare: Does image 1 assign the SAME label to the SAME
+           color/style as image 2? If not → LEGEND SWAP detected.
+        5. Which assignment makes the data consistent with the claim?
+
+  (B) AXIS VERIFICATION:
+      Compare axis labels, tick values, and scale direction between
+      the two images. A graph flip reverses ascending ↔ descending.
+
+  (C) DATA VALUES:
+      For each quantity in the claim, read the EXACT value from BOTH
+      images. Note any value that differs between the two.
+
+  (D) PANEL VERIFICATION (for multi-panel figures):
+      Verify that each panel's CONTENT matches its panel label (a),
+      (b), (c) in BOTH images. A graph swap moves content between panels.
+
+  (E) CATEGORY/X-AXIS LABELS:
+      Compare the ORDER of categories on the x-axis between both images.
+      A category swap reorders bars/groups.
+
+After this checklist, you MUST have identified at least one difference.
+The image where all elements are internally consistent with the claim
+is the authentic one.

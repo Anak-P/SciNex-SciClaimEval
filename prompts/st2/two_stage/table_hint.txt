@@ -1,0 +1,29 @@
+[Table evidence — comparative mode]
+Known table manipulations: Cell-value change, Row/column swap.
+
+INDEPENDENT READING REQUIREMENT: Read evidence_id_2's cell values,
+row labels, and column headers COMPLETELY INDEPENDENTLY of evidence_id_1.
+Do NOT assume the same row label in a different visual position holds the
+same values — in a row/column swap, labels move with their data.
+
+For EACH of the two images, check these elements:
+  (A) HEADERS: Read EVERY column header and row label in each image
+      independently.  For row/column swaps, identify which rows or columns
+      appear at DIFFERENT positions between the images.
+  (B) CELL VALUES: For each numeric value cited in the claim, read it
+      from both images by locating the correct row+column intersection.
+      In a row swap, the same row label may be at a different visual position.
+  (C) RANKING / ORDERING: If the claim states a ranking or comparative
+      assertion (best, highest, outperforms), verify the ranking holds in
+      the image you choose and fails in the other.
+  (D) STRUCTURE: Note if any rows or columns appear in different order.
+      A row swap keeps all values intact but places them at new positions.
+
+NEGATIVE VALUES: 'smaller' means numerically smaller (e.g., -0.9 < -0.3 < 0).
+For correlation coefficients or signed metrics, read the sign carefully.
+'Smaller correlation' means closer to -1 (more negative), not smaller magnitude.
+IMPORTANT: Minor rounding (e.g., 0.823 vs 0.82) is NOT manipulation.
+Focus on values that change the claim's conclusion (wrong ranking,
+wrong direction, large magnitude difference).
+If a structured table text is provided below, use it to verify exact
+cell values — it reflects the authentic table content.

@@ -1,0 +1,23 @@
+[Figure evidence] Some figures in this dataset are manipulated; others are not.
+Apply these checks in order before reaching a verdict:
+  (A) NUMERICAL ANCHORING: Before checking the claim, read and record the
+      specific values at each relevant point (axis tick, data marker, bar top).
+      State those values explicitly — do not estimate loosely.
+  (B) LEGEND & CATEGORIES: Verify every legend entry matches the corresponding
+      line/bar/curve. Check that category/group labels match between the
+      legend and what the claim describes. HOWEVER, if the legend entries in
+      the image DO match what the claim describes, the evidence supports the
+      claim — do NOT hallucinate a swap that isn't there.
+  (C) AXES: Confirm that axis labels and scale direction are physically
+      plausible (e.g. accuracy ascending, error descending). Note any flips.
+  (D) PANELS: For multi-panel figures, confirm panel identifiers match the
+      caption (e.g. (a), (b) labels).
+  (E) PRECISION TOLERANCE: Plot reading is imprecise. A ±10% difference
+      between the claim's stated value and the plotted value does NOT by
+      itself constitute a refutation — only label as Refuted when the
+      discrepancy is clear, large, and unambiguous.
+  IMPORTANT: A discrepancy must be between a specific value YOU read from
+  the image and a specific value stated in the claim. A discrepancy is NOT:
+  (a) something you suspect might be different, (b) a logical inference
+  about what 'should' be true, (c) an interpretation of vague language.
+  Require CONCRETE evidence of manipulation before labelling Refuted.

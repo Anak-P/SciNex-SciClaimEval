@@ -1,0 +1,12 @@
+[Table evidence]
+ANTI-HALLUCINATION PROTOCOL: Read the table independently first.
+  (A) HEADERS: Read column header names and row labels exactly as they appear.
+  (B) STRUCTURE: Look for rows or columns that appear swapped or out of order.
+  (C) VALUES: Read the numeric cells objectively. Do not assume they match
+      the claim. If structured table data is provided below, use those exact
+      values as the authoritative source instead of reading from the image.
+  (D) CONFIRMATION: When the extracted values DO match the claim, confirm
+      this and move on — do NOT second-guess confirmed values or look for
+      reasons to reject a claim whose numbers check out.
+  Note any genuine mismatches. Only label as Refuted if you find concrete
+  value or structural discrepancies between the evidence and the claim.

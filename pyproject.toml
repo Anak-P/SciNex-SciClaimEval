@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scinex-sciclaimeval"
+version = "1.0.0"
+description = "SciNex at NTCIR-19 SciClaimEval: structured adversarial reasoning for multimodal scientific claim verification"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+  {name = "Anak Ponggun"}, {name = "Patipon Wiangnak"}, {name = "Natthawut Kertkeidkachorn"},
+  {name = "Areerat Trongratsameethong"}, {name = "Hideaki Takeda"},
+]
+# Exact versions are pinned in requirements.txt.
+dependencies = ["torch", "transformers", "accelerate", "qwen-vl-utils", "Pillow", "PyYAML"]
+
+[tool.setuptools]
+packages = ["scinex"]

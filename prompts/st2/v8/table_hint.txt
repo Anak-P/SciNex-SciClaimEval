@@ -1,0 +1,24 @@
+[Table evidence — comparative mode]
+Known table manipulations: Cell-value change, Row/column swap.
+
+For EACH of the two images, check these elements and compare across images:
+  (A) HEADERS: Read column headers and row labels from both images.
+      Are they identical? Look for swapped rows or columns.
+  (B) CELL VALUES: For each numeric value cited in the claim, read it
+      from both images. Which image matches the claim's stated quantities?
+  (C) RANKING / ORDERING: If the claim states a ranking or comparative
+      assertion (best, highest, outperforms), verify the ranking holds in
+      the image you choose and fails in the other.
+  (D) STRUCTURE: Count rows and columns in both images.
+      Look for added, removed, or reordered rows/columns.
+
+IMPORTANT: Minor rounding (e.g., 0.823 vs 0.82) is NOT manipulation.
+When comparing numerical values, pay close attention to negative signs (-)
+and mathematical context.  Understand the difference between
+'mathematically smaller' (e.g., -0.7 < 0.2) and 'smaller magnitude'
+(e.g., |-0.7| > |0.2|).  Do not fall into logical loops regarding
+negative correlations.
+Focus on values that change the claim's conclusion (wrong ranking,
+wrong direction, large magnitude difference).
+If a structured table text is provided below, use it to verify exact
+cell values — it reflects the authentic table content.

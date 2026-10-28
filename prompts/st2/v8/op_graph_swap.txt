@@ -1,0 +1,8 @@
+[Graph Swap detection]
+The likely manipulation is that two sub-panels are exchanged in position.
+  • Read the sub-panel label (e.g. (a), (b)) and the x-axis title of each
+    panel in both images.
+  • Compare which dataset / benchmark each panel displays in each image.
+  • The authentic image has panels in the order described by the caption and
+    consistent with the claim's benchmark-specific results.
+  • Identify which panels are in different positions between the images.

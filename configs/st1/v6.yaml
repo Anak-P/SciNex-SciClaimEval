@@ -1,0 +1,22 @@
+# Subtask 1, prompt V6 = the one-stage system (run ST1-one-stage).
+# Structured adversarial reasoning, hedging tolerance τ=0.15 and
+# figure floor τ=0.10, balanced label prior.
+# Dev runs use exact table cells J(e); test runs add --png_only.
+# Source: subtask1/qwen3vlV6.py
+name: st1_v6
+subtask: claim_label
+prompts: st1/v6
+model: Qwen/Qwen3-VL-30B-A3B-Instruct
+generation:
+  max_new_tokens: 4096
+  repetition_penalty: 1.05
+  chat_template_kwargs: {enable_thinking: true, thinking_budget: 1024}
+batch_size: 2
+image_max_side: 2800
+table_json: true
+context_values: ["yes", "full paper", "true", "1", "other sources"]
+other_sources_hint: true
+parser: extended
+self_verify_refuted: true
+vote_tiebreak: refuted
+submission_unparsed: Supported

@@ -1,0 +1,19 @@
+# Subtask 2, prompt V9: anti-anchoring warning; reverse check that
+# names the edited element. Gold operation hint as in V8.
+# Source: subtask2/qwen3vlV9.py
+name: st2_v9
+subtask: claim_evidence
+prompts: st2/v9
+model: Qwen/Qwen3-VL-30B-A3B-Instruct
+generation:
+  max_new_tokens: 8192
+  repetition_penalty: 1.05
+  chat_template_kwargs: {enable_thinking: true}
+batch_size: 2
+image_max_side: 1920
+table_json: true
+context_values: ["yes", "full paper", "true", "1"]
+operation_hint: true
+scoped_figure_context: true
+vote_tiebreak: earliest
+submission_unparsed: omit

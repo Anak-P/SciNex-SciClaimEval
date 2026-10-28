@@ -1,0 +1,21 @@
+# Subtask 2, prompt V10 = the one-stage system (run ST2-one-stage).
+# Independent, verbatim reading of e2; rule for when both candidates fit.
+# The gold operation hint is active on dev; the test split has no operation
+# field, so it is inert there. Test runs add --png_only.
+# Source: subtask2/qwen3vlV10.py
+name: st2_v10
+subtask: claim_evidence
+prompts: st2/v10
+model: Qwen/Qwen3-VL-30B-A3B-Instruct
+generation:
+  max_new_tokens: 8192
+  repetition_penalty: 1.15
+  chat_template_kwargs: {enable_thinking: true}
+batch_size: 2
+image_max_side: 1920
+table_json: true
+context_values: ["yes", "full paper", "true", "1"]
+operation_hint: true
+scoped_figure_context: true
+vote_tiebreak: earliest
+submission_unparsed: omit

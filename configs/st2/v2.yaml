@@ -1,0 +1,18 @@
+# Subtask 2, prompt V2: analyse each candidate, then compare; lists
+# the editing operations. PNG input only.
+# Source: subtask2/qwen3vlV2.py
+name: st2_v2
+subtask: claim_evidence
+prompts: st2/v2
+model: Qwen/Qwen3-VL-30B-A3B-Instruct
+generation:
+  max_new_tokens: 4096
+  repetition_penalty: 1.05
+  chat_template_kwargs: {enable_thinking: true}
+batch_size: 2
+image_max_side: 1920
+composite_alpha: false        # V2 converted transparent images straight to RGB
+table_json: false
+context_values: ["yes", "full paper", "true", "1"]
+vote_tiebreak: earliest
+submission_unparsed: omit

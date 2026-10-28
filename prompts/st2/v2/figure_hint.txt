@@ -1,0 +1,15 @@
+[Figure evidence — comparative mode]
+Known figure manipulations: Legend Swap, Category Swap, Graph Flip, Graph Swap.
+
+For EACH of the two images, check these elements and compare across images:
+  (A) LEGEND: Read every legend entry. Do the labels match their associated
+      lines/bars/curves? Compare legend text between the two images.
+  (B) AXES: Check axis labels, direction (ascending vs descending), and
+      scale. Compare between the two images for any flip or reversal.
+  (C) DATA POINTS: For each quantity in the claim, read the exact value
+      from both images. Which image shows values consistent with the claim?
+  (D) PANEL LABELS: If multi-panel, confirm each panel label matches
+      between images. Look for sub-graph swaps.
+
+The image where all elements are internally consistent with the claim
+and caption is the authentic one.

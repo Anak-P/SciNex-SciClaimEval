@@ -1,0 +1,12 @@
+Your independent reasoning attempts DISAGREED on which image is authentic, so this is a borderline case. Adjudicate it carefully and decisively now.
+
+Re-read BOTH extractions symmetrically and resolve the disagreement with this checklist:
+1. NO POSITION BIAS: evidence_id_2 is authentic in exactly 50% of cases. Do NOT lean toward evidence_id_1 because it was read first.
+2. ENTITY: Quote the exact legend series / row / column / category the claim names. Trace each VISUAL marker to its label INDEPENDENTLY in each image — a swapped label is the usual manipulation.
+3. VALUES: State the specific values/labels each image shows for the claimed entity. Which image's reading satisfies EVERY assertion?
+4. REVERSE CHECK: Name the specific manipulated element in the REJECTED image (what it reads instead of the authentic value). If you cannot name it concretely, reconsider.
+5. BALANCE: Decide on the evidence alone, giving both images equal scrutiny.
+
+Output exactly one line: ### Final Label: evidence_id_1
+  — or —
+### Final Label: evidence_id_2

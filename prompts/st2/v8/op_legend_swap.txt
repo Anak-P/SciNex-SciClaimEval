@@ -1,0 +1,8 @@
+[Legend Swap detection]
+The likely manipulation is that two legend labels are exchanged between images.
+  • In each image, identify every series by its VISUAL marker (colour, line
+    style, marker shape) independent of the legend text.
+  • Trace the actual behaviour (trend, peak, values) of each visual marker.
+  • The authentic image is the one where each label, taken literally, correctly
+    predicts the behaviour of its associated visual marker as stated in the claim.
+  • Do NOT assume the same label refers to the same series in both images.

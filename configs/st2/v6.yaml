@@ -1,0 +1,17 @@
+# Subtask 2, prompt V6: equal-position prior and anti-bias rules;
+# difference table; figure checklist. PNG input only.
+# Source: subtask2/qwen3vlV6.py
+name: st2_v6
+subtask: claim_evidence
+prompts: st2/v6
+model: Qwen/Qwen3-VL-30B-A3B-Instruct
+generation:
+  max_new_tokens: 8192
+  repetition_penalty: 1.15
+  chat_template_kwargs: {enable_thinking: true}
+batch_size: 2
+image_max_side: 2800
+table_json: false
+context_values: ["yes", "full paper", "true", "1"]
+vote_tiebreak: earliest
+submission_unparsed: omit

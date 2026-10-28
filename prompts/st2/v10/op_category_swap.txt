@@ -1,0 +1,20 @@
+[Category Swap detection]
+The likely manipulation is that x-axis or bar category labels are reordered
+while the underlying data values (bar heights, point positions) stay fixed.
+Bar heights do NOT change — only the label assignment at each position differs.
+
+Step-by-step protocol:
+  1. For evidence_id_1: list ALL category labels at each x-axis position verbatim.
+  2. For evidence_id_2: do the SAME independently — read labels directly from
+     evidence_id_2 without referencing evidence_id_1.
+  3. Identify which labels appear at DIFFERENT bar positions between images.
+  4. For the specific entity named in the claim, find its bar in EACH image
+     and read the corresponding data value (bar height).
+  5. The authentic image is the one where the named entity's label is attached
+     to the bar that shows the value asserted by the claim.
+  6. The manipulated image places the named entity's label at a DIFFERENT
+     position, so the bar under it shows a different value — contradicting
+     the claim.
+  7. After identifying your answer, confirm: in the REJECTED image, state
+     exactly which label is at the wrong position and what value it shows
+     instead of the claimed value.  Then output your verdict and stop.

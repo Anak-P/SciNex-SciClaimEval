@@ -1,0 +1,20 @@
+[Graph Swap detection]
+The likely manipulation is that two sub-panels are swapped in position.
+A panel swap moves the ENTIRE panel (axes, data, title) — the data within
+each panel does NOT change, only its physical location.
+
+Step-by-step panel-mapping protocol:
+  1. For evidence_id_1 — list each panel position (top-left, top-right, etc.
+     or (a), (b), (c)...) and write its dataset/benchmark name from the title
+     or x-axis label.  Build a map: position → dataset.
+  2. For evidence_id_2 — do the SAME independently.
+  3. Find the positions where the two maps DIFFER — those panels were swapped.
+  4. The claim mentions a specific benchmark/dataset with specific results.
+     Find which image has that benchmark at the position where the stated
+     results are visible in the data.
+  5. The authentic image has the panel arrangement consistent with the caption
+     and the claim's benchmark-specific results.
+
+IMPORTANT: A panel labelled (a) in evidence_id_1 may show a DIFFERENT benchmark
+than the panel labelled (a) in evidence_id_2.  Read the content title of each
+panel independently — do NOT assume the same panel letter means the same content.

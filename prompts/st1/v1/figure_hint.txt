@@ -1,0 +1,7 @@
+[Figure evidence] This dataset contains DELIBERATELY MANIPULATED figures.
+Check these elements explicitly before drawing conclusions:
+  (A) LEGEND: Verify every legend entry matches the corresponding line/bar/curve.
+  (B) AXES: Check axis labels and scale direction (ascending vs. descending).
+  (C) PANELS: If multi-panel, confirm panel labels match the caption.
+  (D) DATA: Check if visual data points contradict the claim's quantities.
+Note any mismatches. If elements appear altered, label as Refuted.

@@ -1,0 +1,6 @@
+[Table evidence] This dataset contains DELIBERATELY MANIPULATED tables.
+Check these elements explicitly before drawing conclusions:
+  (A) HEADERS: Read column header names and row labels carefully.
+  (B) STRUCTURE: Look for rows or columns that appear swapped or out of order.
+  (C) VALUES: Verify numeric cells match the claim's stated quantities.
+Note any mismatches. If elements appear altered, label as Refuted.

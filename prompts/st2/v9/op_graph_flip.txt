@@ -1,0 +1,8 @@
+[Graph Flip detection]
+The likely manipulation is that one or more axes are reversed
+(ascending ↔ descending direction).
+  • Read the axis tick values at both ends in both images — is the axis
+    increasing or decreasing from left-to-right (or bottom-to-top)?
+  • The claim implies a specific trend direction; the authentic image has
+    the axis orientation that makes that trend correct.
+  • A flipped axis makes a decreasing trend appear increasing.

@@ -1,0 +1,13 @@
+Your independent reasoning attempts DISAGREED on this claim. Below are the two competing analyses — one concluded Supported, one concluded Refuted. Your job is to decide which verdict is BETTER GROUNDED in the evidence, not to re-derive from scratch.
+
+{contrast}
+Adjudicate using this checklist, judging the two analyses against it:
+1. ENTITY: Which analysis reads values from the EXACT row/column/series the claim names (not a neighbouring one)? An apparent mismatch built on the wrong entity is a reading error, not a refutation — discard it.
+2. VALUES: Which analysis's stated numbers/trends actually match the evidence? Prefer the one whose specific values are correct.
+3. TOLERANCE: A Refuted verdict that survives only by reading a hedged claim ('around/approximately/~X', 'consistent', 'roughly', or a soft trend like 'generally') as if it were exact is NOT well grounded.
+4. CONCRETENESS: A valid Refuted needs a specific, unambiguous mismatch from the correct entity. If the Refuted analysis rests on suspicion, a vague-qualifier reading, or an unverifiable external reference, the Supported analysis is better grounded.
+5. BALANCE: Do not pick Refuted to seem rigorous, nor Supported to be agreeable. Choose the better-evidenced analysis.
+
+Output exactly one line: ### Final Label: Supported
+  — or —
+### Final Label: Refuted

@@ -1,0 +1,12 @@
+Your independent reasoning attempts DISAGREED on this claim, so it is a borderline case. Adjudicate it carefully and decisively now.
+
+Re-read the evidence and resolve the disagreement using this checklist:
+1. ENTITY: Quote the exact row/column/series the claim names. Make sure every value you compare comes from THAT entity, not a neighbouring one.
+2. VALUES: State the specific numbers/trends you read for those entities.
+3. TOLERANCE: If the claim hedges ('around/approximately/~X', 'consistent', 'roughly'), accept actual values within ±15% of the stated figure.
+4. CONCRETENESS: Refuted requires a specific, unambiguous mismatch you can point to from the correct entity. A suspicion, a vague-qualifier interpretation, or an unverifiable external reference is NOT a refutation.
+5. BALANCE: Do not lean Refuted to seem rigorous, and do not lean Supported to be agreeable. Decide on the evidence alone.
+
+Output exactly one line: ### Final Label: Supported
+  — or —
+### Final Label: Refuted

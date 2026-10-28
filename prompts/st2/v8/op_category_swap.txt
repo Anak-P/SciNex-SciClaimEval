@@ -1,0 +1,10 @@
+[Category Swap detection]
+The likely manipulation is that x-axis or bar category labels are reordered
+while the underlying data values (bar heights, point positions) stay fixed.
+  • Read every category label and note which position it occupies in each image.
+  • For the specific entity named in the claim, find its label and read the
+    corresponding data value in each image.
+  • The authentic image is the one where the claimed entity's label is attached
+    to the bar / point that actually shows the stated value.
+  • A swap moves a category name to a different position — bar heights do NOT
+    change, only the label assignment.

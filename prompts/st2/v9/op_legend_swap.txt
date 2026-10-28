@@ -1,0 +1,23 @@
+[Legend Swap detection]
+The likely manipulation is that two legend labels are exchanged between images.
+CRITICAL: Visual elements (line colours, bar fills, marker shapes) are IDENTICAL
+in both images — ONLY the legend TEXT labels differ.  Read each image's legend
+text with equal care and complete independence.
+
+Step-by-step protocol:
+  1. For evidence_id_1 — identify every series by its VISUAL marker (colour,
+     line style, shape) and then read the legend text for that marker.  Write:
+     '[visual description] → label text'.
+  2. For evidence_id_2 — do the SAME independently, without referencing step 1.
+     Read the legend text directly in evidence_id_2.
+  3. Compare: which markers have DIFFERENT label assignments between the images?
+  4. Trace each visual marker's ACTUAL BEHAVIOUR (trend, peak, relative position)
+     independently of what the claim says its name should be.
+  5. The authentic image assigns labels so that the named series in the claim
+     corresponds to a visual marker whose behaviour matches the claim's assertion.
+  6. The manipulated image has a different label assignment that CONTRADICTS
+     the claim for the named series.
+
+WARNING: If evidence_id_1's labels appear to 'obviously' match the claim, be
+suspicious — evidence_id_1 may have been manipulated to create a false match.
+Confirm by independently verifying evidence_id_2's labels before deciding.

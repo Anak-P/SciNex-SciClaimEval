@@ -1,0 +1,14 @@
+[Table evidence — comparative mode]
+Known table manipulations: Cell-value change, Row/column swap.
+
+For EACH of the two images, check these elements and compare across images:
+  (A) HEADERS: Read column headers and row labels from both images.
+      Are they identical? Look for swapped rows or columns.
+  (B) CELL VALUES: For each numeric value cited in the claim, read it
+      from both images. Which image matches the claim's stated quantities?
+  (C) STRUCTURE: Count rows and columns in both images.
+      Look for added, removed, or reordered rows/columns.
+
+IMPORTANT: Minor rounding (e.g., 0.823 vs 0.82) is NOT manipulation.
+Focus on values that change the claim's conclusion (wrong ranking,
+wrong direction, large magnitude difference).

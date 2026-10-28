@@ -1,0 +1,19 @@
+# Subtask 2, prompt V8: exact cells; detection logic per operation;
+# operation hint taken from the GOLD `operation` field (dev only).
+# Source: subtask2/qwen3vlV8.py
+name: st2_v8
+subtask: claim_evidence
+prompts: st2/v8
+model: Qwen/Qwen3-VL-30B-A3B-Instruct
+generation:
+  max_new_tokens: 4096
+  repetition_penalty: 1.05
+  chat_template_kwargs: {enable_thinking: true}
+batch_size: 2
+image_max_side: 1920
+table_json: true
+context_values: ["yes", "full paper", "true", "1"]
+operation_hint: true          # uses gold labels; optimistic on figures
+scoped_figure_context: true
+vote_tiebreak: earliest
+submission_unparsed: omit

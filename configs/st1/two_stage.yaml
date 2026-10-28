@@ -1,0 +1,30 @@
+# Subtask 1 two-stage system (run ST1-two-stages).
+# Figures: CapRL captioner de-renders the image without the claim (Stage 1),
+# then the Thinking reasoner sees caption + image + claim + paper context.
+# Tables bypass Stage 1 and use this prompt set's single-stage `system.txt`.
+# Source: subtask1/qwen3vl2model.py
+name: st1_two_stage
+subtask: claim_label
+prompts: st1/two_stage
+model: Qwen/Qwen3-VL-30B-A3B-Thinking
+generation:
+  max_new_tokens: 8192
+  repetition_penalty: 1.15
+  chat_template_kwargs: {enable_thinking: true, thinking_budget: 1024}
+batch_size: 2
+image_max_side: 2800
+image_border: 0.10            # white border
+table_json: true
+context_values: ["yes", "full paper", "true", "1", "other sources"]
+other_sources_hint: true
+parser: extended
+self_verify_refuted: true
+paper_grounding_chars: 1400   # source-paper context for figures
+vote_tiebreak: earliest
+adjudication: {enabled: true, contrastive: true, trace_chars: 1100}   # only fires when N>1
+captioner:
+  model: internlm/CapRL-Qwen3VL-4B
+  max_new_tokens: 4096
+  chat_template_kwargs: {enable_thinking: true, thinking_budget: 1024}
+  evidence_types: [figure]
+submission_unparsed: Supported

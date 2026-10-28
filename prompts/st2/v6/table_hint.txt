@@ -1,0 +1,31 @@
+[Table evidence — comparative mode]
+Known table manipulations: Cell-value change, Row/column swap.
+
+REMEMBER: The two tables are NEVER identical. One is always manipulated.
+The manipulation may be very subtle (a single cell value changed by a
+small amount, or two rows/columns swapped). You MUST find the difference.
+
+SYSTEMATIC COMPARISON CHECKLIST — go through ALL of these:
+
+  (A) HEADERS: Read column headers and row labels from BOTH images.
+      Are they in the same order? Look for swapped rows or columns.
+
+  (B) CELL VALUES: For EVERY numeric value cited or implied by the claim,
+      read it from BOTH images. Create a comparison list:
+        Value X: image_1=___, image_2=___ → same/different?
+      Focus especially on the cells that determine the claim's conclusion
+      (rankings, comparisons, specific quantities).
+
+  (C) STRUCTURE: Count rows and columns in both images.
+      Look for added, removed, or reordered rows/columns.
+
+  (D) CROSS-VALIDATION: Check if any cell values are internally
+      inconsistent (e.g., a total that doesn't match its components,
+      a percentage that doesn't match the raw count).
+
+IMPORTANT: Minor rounding (e.g., 0.823 vs 0.82) is NOT manipulation.
+Focus on values that change the claim's conclusion (wrong ranking,
+wrong direction, large magnitude difference).
+
+After this checklist, you MUST have identified at least one difference.
+The image whose values are consistent with the claim is the authentic one.

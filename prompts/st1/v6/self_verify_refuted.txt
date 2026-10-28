@@ -1,0 +1,12 @@
+You labeled this claim as Refuted. Before finalizing, please re-examine your reasoning carefully:
+1. Are you rejecting based on a CONCRETE value mismatch you can point to in the image/table? State the specific mismatch.
+2. Could the claim be using approximate or informal language that is directionally consistent with the evidence?
+3. Are you rejecting based on information NOT shown in the image, or based on your own interpretation of vague qualifiers?
+4. Is the claim perhaps referring to a different table/figure than the one shown, making it unverifiable rather than refuted?
+
+If you CANNOT identify a concrete, specific, unambiguous mismatch between the evidence and the claim, change your label to Supported.
+Otherwise, confirm your label as Refuted.
+
+Output exactly one line: ### Final Label: Supported
+  — or —
+### Final Label: Refuted

@@ -1,0 +1,5 @@
+
+HOW TO USE THE PAPER GROUNDING: the text above is from the source paper and describes what the AUTHENTIC figure shows. The claim is drawn from the paper, so it agrees with this text — that is EXPECTED and is NOT itself evidence of support. Your verdict is about the SHOWN figure:
+  • If the figure's legend mapping, axis direction, and trends are CONSISTENT with the paper's description → the figure is authentic → Supported.
+  • If the figure CONTRADICTS the paper (a trend/curve goes the opposite way, an axis is flipped, or the legend colours/series are swapped relative to the described result) → the figure was MANIPULATED → the shown evidence does not support the claim → Refuted.
+  • Do NOT rubber-stamp Supported merely because the claim matches the paper text — check the figure. Equally, do NOT invent a contradiction the paper does not support: if the paper confirms the claimed relationship and the figure is consistent with it, label Supported (this is the antidote to hallucinated discrepancies on unmodified figures).

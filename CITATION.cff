@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "SciNex: code for the NTCIR-19 SciClaimEval Task"
+license: MIT
+authors:
+  - family-names: Ponggun
+    given-names: Anak
+  - family-names: Wiangnak
+    given-names: Patipon
+  - family-names: Kertkeidkachorn
+    given-names: Natthawut
+  - family-names: Trongratsameethong
+    given-names: Areerat
+  - family-names: Takeda
+    given-names: Hideaki
+preferred-citation:
+  type: conference-paper
+  title: "SciNex at the NTCIR-19 SciClaimEval Task: Structured Adversarial Reasoning for Multimodal Scientific Claim Verification"
+  authors:
+    - family-names: Ponggun
+      given-names: Anak
+    - family-names: Wiangnak
+      given-names: Patipon
+    - family-names: Kertkeidkachorn
+      given-names: Natthawut
+    - family-names: Trongratsameethong
+      given-names: Areerat
+    - family-names: Takeda
+      given-names: Hideaki
+  collection-title: "Proceedings of the 19th NTCIR Conference on Evaluation of Information Access Technologies"
+  year: 2026

@@ -1,0 +1,33 @@
+[Figure evidence — comparative mode]
+Known figure manipulations: Legend Swap, Category Swap, Graph Flip, Graph Swap.
+
+INDEPENDENT READING REQUIREMENT: Analyse evidence_id_2 COMPLETELY
+INDEPENDENTLY of evidence_id_1.  Do NOT assume that because evidence_id_1
+appears to match the claim, evidence_id_2 must be the manipulated image.
+Read every legend entry, axis label, and category label in evidence_id_2 as
+if you have never seen evidence_id_1.  Manipulation is equally likely in either
+image — if evidence_id_1 matches the claim 'too easily', suspect it was
+manipulated to appear authentic.
+
+For EACH of the two images, check these elements and compare across images:
+  (A) LEGEND: Read every legend entry and trace each VISUAL marker (colour,
+      line style, marker shape) to its associated label independently.  Compare
+      legend text between the two images — do NOT assume identical positions
+      mean identical labels.
+  (B) AXES: Check axis labels, direction (ascending vs descending), and scale.
+      Compare between the two images for any flip or reversal.
+  (C) CATEGORY LABELS: Read every x-axis tick, bar label, or panel sub-label.
+      Compare category order between the two images — the same bar position
+      may carry a different label in each image.
+  (D) DATA POINTS: For each quantity in the claim, read the exact value from
+      both images.  Which image shows values consistent with the claim?
+  (E) PANEL ARRANGEMENT: If multi-panel, compare which dataset / content each
+      panel displays in both images.  Look for sub-graph position swaps.
+
+IMPORTANT: Do NOT hallucinate data points, trends, or panels not explicitly
+present.  If the images appear identical at first glance, the manipulation is
+likely a subtle Legend Swap or Category Swap — carefully read every word in
+the legend and axis labels before concluding they are the same.
+
+The image where ALL elements are internally consistent with the claim and
+caption simultaneously is the authentic one.
